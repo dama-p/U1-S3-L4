@@ -1,0 +1,46 @@
+body {
+  background-color: azure;
+  background-color: #e4222b;
+}
+
+main {
+  margin-top: 50px;
+  width: 760px;
+  margin-inline: auto;
+  text-align: center;
+}
+
+#tabellone {
+  background-color: #e4222b;
+  color: #ebebeb;
+}
+
+.cell {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #fff5d9;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+h3 {
+  text-align: center;
+  color: #e4222b;
+  font-size: 16px;
+}
+
+.selectedNum {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background-color: #f3c069;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#estrazione {
+  margin-top: 50px;
+}
