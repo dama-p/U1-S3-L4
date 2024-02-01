@@ -1,7 +1,4 @@
 
-// 1) CREIAMO 76 CELLE NEL TABELLONE 
-
-
 
 const createTable = function () {
     const tabellone = document.getElementById("tabellone");
@@ -17,21 +14,9 @@ const createTable = function () {
     
 }
 
-
-/* if (parseInt(cellNum) === randomNumber()) {
-    cellNum.className = "selectedNum";
-} */
-
-
 }
 
 
-/* function randomNumber() {
-    const ranNum = Math.floor(Math.random() * 77);
-    document.getElementById('generatedNumber').value = ranNum;
-
-
-}  */
 
 onlybutton.addEventListener("click", function () {
     const ranNum = Math.floor(Math.random() * 77);
